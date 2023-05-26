@@ -1,0 +1,60 @@
+header{
+    /* background-image: url("naturebg.jpg"); */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+video {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-size: contain;
+    bottom: 0px;
+    z-index: -1;
+    width: 100vw;
+    max-height: 100vw;
+
+
+    
+  }
+
+
+nav li {
+    float: right;
+    /* list style removes the bullet */
+    list-style:none; 
+
+    
+}
+
+nav li a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: black;
+    text-align: bottom;
+    padding: 15px;
+    /* text decoration is for e.g like underline, line-through(strikethrough look) and overline */
+    text-decoration: none;
+    display: flex;
+}
+
+nav li a:hover {
+    background-color: rgb(98, 245, 213);
+    text-decoration: underline;
+    
+}
+
+nav li a:active {
+    background-color: rgb(129, 3, 3);
+    border-radius: 70%;
+}
+
+svg {
+    margin-left: 3%;
+    margin-bottom: 1%;
+    width:100px; 
+    height:100px;
+  }
